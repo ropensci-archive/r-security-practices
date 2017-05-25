@@ -11,4 +11,4 @@ docs
 pres
 demo
 handouts
-^*\.md$
+^.*\.md$
