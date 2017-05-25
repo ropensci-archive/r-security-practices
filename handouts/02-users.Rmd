@@ -1,0 +1,13 @@
+# R Users
+
+## Working with the file system
+
+## Unsafe sourcing
+
+## Dynamic string creation
+
+## Password handling
+
+## Dynamic code execution
+
+## System calls
