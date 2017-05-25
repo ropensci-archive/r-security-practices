@@ -3,3 +3,15 @@
 language: R
 sudo: false
 cache: packages
+latex: false
+warnings_are_errors: false
+install:
+  - R -e 'install.packages("devtools")'
+  - R -e 'devtools::install_deps(dep = T)'
+  - R CMD build --no-build-vignettes --no-manual .
+  - R CMD check --no-build-vignettes --no-manual  *tar.gz
+  - Rscript -e 'devtools::install(pkg = ".")'
+before_script:
+  - chmod +x ./builddocs.sh
+script:
+  - ./builddocs.sh
