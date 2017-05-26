@@ -36,7 +36,7 @@ List of 1
 
 output file: _main.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/default.html --highlight-style pygments --number-sections --variable 'theme:bootstrap' --include-in-header /tmp/Rtmplkm1OE/rmarkdown-str231e1dd8d345.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/default.html --highlight-style pygments --number-sections --variable 'theme:bootstrap' --include-in-header /tmp/RtmpD6cokS/rmarkdown-str231e2983d1dd.html --mathjax 
 
 Output created: docs/_main.html
 [1] "/home/travis/build/ropenscilabs/r-security-practices/docs/_main.html"
@@ -49,4 +49,4 @@ In split_chapters(output, page_builder, number_sections, split_by,  :
 > 
 > proc.time()
    user  system elapsed 
-  0.904   0.108   1.057 
+  0.812   0.100   1.146 
