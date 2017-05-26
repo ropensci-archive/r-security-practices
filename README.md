@@ -5,7 +5,7 @@ R security practices
 
 This is a repository of guidance materials to help people improve the security of R usage.
 
-The core guidance is available in the [book](https://ropenscilabs.github.com/r-security-practices).
+The core guidance is available in the [book](https://ropenscilabs.github.io/r-security-practices).
 
 Who this is for
 ---------------
