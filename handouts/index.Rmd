@@ -2,8 +2,11 @@
 title: "R security practices"
 author: "Steph Locke"
 date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
@@ -11,6 +14,7 @@ link-citations: yes
 github-repo: ropenscilabs/r-security-practices
 description: "A guide for R users about using and developing R securely"
 ---
+
 
 # Who this book is for
 This book is split into two principal sections of guidance -- users and developers. If you're a user of R then you only need to read the first section, if you're an R developer you should read both sections.
