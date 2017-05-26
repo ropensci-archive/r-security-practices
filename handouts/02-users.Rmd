@@ -1,6 +1,11 @@
 # R Users
 
 ## Working with the file system
+In R you can work with the file system using the following functions:
+
+```{r}
+
+```
 
 ## Unsafe sourcing
 
