@@ -18,7 +18,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 > library(rmarkdown)
-> bookdown::render_book("handouts/index.Rmd", "bookdown::html_book", output_dir="docs")
+> bookdown::render_book("handouts/index.Rmd", "bookdown::gitbook", output_dir="docs")
 
 
 processing file: _main.Rmd
@@ -36,9 +36,14 @@ List of 1
 
 output file: _main.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/default.html --highlight-style pygments --number-sections --variable 'theme:bootstrap' --include-in-header /tmp/RtmpPRUGVB/rmarkdown-str311d1f61c895.html --mathjax 
-Error in split_chapters(output, page_builder, number_sections, split_by,  : 
-  The document must start with a first (#) or second level (##) heading
-Calls: <Anonymous> ... render_cur_session -> <Anonymous> -> <Anonymous> -> split_chapters
-Please delete _main.Rmd after you finish debugging the error.
-Execution halted
+/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/gitbook.html --highlight-style pygments --number-sections --include-in-header /tmp/RtmpV6JYkj/rmarkdown-str2fbd321801f7.html --mathjax 
+
+Output created: docs/r-security-practices.html
+[1] "/home/travis/build/ropenscilabs/r-security-practices/docs/r-security-practices.html"
+> # slides=list.files("pres","*.Rmd",full.names=TRUE)
+> #
+> # for (f in slides) render(f,output_dir = "docs")
+> 
+> proc.time()
+   user  system elapsed 
+  0.836   0.088   0.951 
