@@ -7,18 +7,12 @@ This is a repository of guidance materials to help people improve the security o
 
 The core guidance is available in the [book](https://ropenscilabs.github.com/r-security-practices).
 
-R Security Practices book
--------------------------
+Who this is for
+---------------
 
-The primary audiences for the [book](https://ropenscilabs.github.com/r-security-practices) are:
+This work is aimed at three (often overlapping) types of people involved with R -- users, developers, and administrators.
 
--   users
--   developers
--   administrators
+Motivation
+----------
 
-Each section of guidance contains:
-
--   key principles
--   examples of good practices
--   examples of bad practices
--   background / detailed information on why you should adhere to the principles
+The R community is pretty awesome but as a lot of us aren't trained developers, we can inadvertently do things that are security boo-boos or open us to bad people taking advantage of our systems. I'm sure we'd like to avoid that!

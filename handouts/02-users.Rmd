@@ -3,24 +3,23 @@
 ## Working with the file system
 In R you can work with the file system. R can do anything you can do with files across your network so you need to be careful.
 
-### Principles
-
+#### Principles
 - Interact with files through pre-defined interfaces geared towards the type of file you want to access
 - Use relative references
 
-### Good examples
-### Bad examples
-### Background
+#### Good examples
+#### Bad examples
+#### Background
 
 ### File locations
 - Working directory
 - Network files
 
 
-### Principles
-### Good examples
-### Bad examples
-### Background
+#### Principles
+#### Good examples
+#### Bad examples
+#### Background
 
 ### File permissions
 - Execute permissions
@@ -31,10 +30,10 @@ In R you can work with the file system. R can do anything you can do with files 
 - The use of `unlink`
 
 
-### Principles
-### Good examples
-### Bad examples
-### Background
+#### Principles
+#### Good examples
+#### Bad examples
+#### Background
 
 ## Unsafe sourcing
 Don't source files from internet without checking them!
@@ -47,10 +46,10 @@ library(notary)
 ```
 
 
-### Principles
-### Good examples
-### Bad examples
-### Background
+#### Principles
+#### Good examples
+#### Bad examples
+#### Background
 
 ## Dynamic string creation & SQL injection
 If you're pulling data from a source and using it to construct strings that you'll then execute, you need to be careful.

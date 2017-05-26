@@ -15,4 +15,8 @@ description: "A guide for R users about using and developing R securely"
 
 
 # Who this book is for
-This book is aimed at three potentially overlapping types of people involved with R -- users, developers, and administrators. 
+This book is aimed at three (often overlapping) types of people involved with R -- users, developers, and administrators. 
+
+The R community is pretty awesome but as a lot of us aren't trained developers, we can inadvertently do things that are security boo-boos or open us to bad people taking advantage of our systems.
+
+As a result, we give guidance to R people to help you avoid common issues.

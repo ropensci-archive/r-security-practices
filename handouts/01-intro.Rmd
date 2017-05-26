@@ -2,6 +2,10 @@
 
 Welcome to our book on security best practices for R people!
 
-In our **R Users** sections, we outline what you need to think about when you're writing scripts and using R day to day.
+In our **Users** section, we outline what you need to think about when you're writing scripts and using R day to day.
 
-In our **R Developers** sections, we outline best practices to developing R packages securely that helps you avoid doing things that allow bad things to happen because of your package.
+In our **Developers** section, we outline best practices to developing R packages securely that helps you avoid doing things that allow bad things to happen because of your package.
+
+In our **Administrators** section, we outline some best practices for maintaining R to minimise potential security issues.
+
+The aim of the book is not too make R people security experts, but to give R people some pragmatic, easy-to-follow principles that result in more secure behaviour. We demonstrate the principles with some examples of how to do things and how not to do things. Then, if you're interested in the details behind why you should do these things we provide explanations.
