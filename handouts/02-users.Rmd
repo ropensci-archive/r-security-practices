@@ -1,12 +1,19 @@
 # R Users
 
 ## Working with the file system
-In R you can work with the file system. This can be pretty darn risky so here is a set of maxims in order of preference:
+In R you can work with the file system. R can do anything you can do with files across your network so you need to be careful.
 
-1. If you can avoid interacting with a machine's file system, do
-4. If you can validate a file is as expected before working with it, do
-2. If you can avoid working with files outside of your working directory, do
-3. If you can avoid giving everybody permissions on a file, do
+### File locations
+- Working directory
+- Network files
+
+### File permissions
+- Execute permissions
+- Groups
+
+### Cleanup
+- The use of `on.exit`
+- The use of `unlink`
 
 ## Unsafe sourcing
 Don't source files from internet without checking them!
@@ -19,6 +26,7 @@ library(notary)
 ```
 
 ## Dynamic string creation
+
 
 ## Password handling
 
