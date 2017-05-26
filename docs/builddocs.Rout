@@ -36,17 +36,9 @@ List of 1
 
 output file: _main.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/default.html --highlight-style pygments --number-sections --variable 'theme:bootstrap' --include-in-header /tmp/Rtmpl5svrD/rmarkdown-str231b1b46bb78.html --mathjax 
-
-Output created: docs/_main.html
-[1] "/home/travis/build/ropenscilabs/r-security-practices/docs/_main.html"
-Warning message:
-In split_chapters(output, page_builder, number_sections, split_by,  :
-  You have 1 Rmd input file(s) but only 0 first-level heading(s). Did you forget first-level headings in certain Rmd files?
-> # slides=list.files("pres","*.Rmd",full.names=TRUE)
-> #
-> # for (f in slides) render(f,output_dir = "docs")
-> 
-> proc.time()
-   user  system elapsed 
-  0.740   0.084   0.836 
+/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/default.html --highlight-style pygments --number-sections --variable 'theme:bootstrap' --include-in-header /tmp/RtmpPRUGVB/rmarkdown-str311d1f61c895.html --mathjax 
+Error in split_chapters(output, page_builder, number_sections, split_by,  : 
+  The document must start with a first (#) or second level (##) heading
+Calls: <Anonymous> ... render_cur_session -> <Anonymous> -> <Anonymous> -> split_chapters
+Please delete _main.Rmd after you finish debugging the error.
+Execution halted
