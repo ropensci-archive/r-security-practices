@@ -10,4 +10,6 @@ LazyData: true
 Remotes: ropenscilabs/notary
 Imports: bookdown,
     rmarkdown,
-    notary
+    notary,
+    DBI,
+    shiny
