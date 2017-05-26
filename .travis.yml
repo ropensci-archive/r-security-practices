@@ -4,6 +4,8 @@ sudo: false
 cache: packages
 addons:
   apt:
+    sources:
+      - sourceline: 'ppa:chris-lea/libsodium'
     packages:
     - libgpgme11-dev
     - libsodium-dev
