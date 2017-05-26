@@ -2,12 +2,42 @@
 
 ## Preventing unsafe arbitrary code execution
 
+### Principles
+### Good examples
+### Bad examples
+### Background
+
 ## Signing your commits
+
+### Principles
+### Good examples
+### Bad examples
+### Background
 
 ## Storing sensitive information
 
+### Principles
+### Good examples
+### Bad examples
+### Background
+
 ## Downloading dependencies
+
+### Principles
+### Good examples
+### Bad examples
+### Background
 
 ## System dependencies
 
+### Principles
+### Good examples
+### Bad examples
+### Background
+
 ## File interactions
+
+### Principles
+### Good examples
+### Bad examples
+### Background

@@ -2,6 +2,28 @@
 
 ## Authorative mirrors
 
+### Principles
+### Good examples
+### Bad examples
+### Background
+
+## Internal CRANs
+
+### Principles
+### Good examples
+### Bad examples
+### Background
+
 ## Validating package installs
 
+### Principles
+### Good examples
+### Bad examples
+### Background
+
 ## Restricting privileges
+
+### Principles
+### Good examples
+### Bad examples
+### Background
