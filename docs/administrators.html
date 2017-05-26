@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="intro.html">
-<link rel="next" href="developers.html">
+<link rel="prev" href="developers.html">
+<link rel="next" href="references.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -143,57 +143,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="r-users" class="section level1">
-<h1><span class="header-section-number">3</span> R Users</h1>
-<div id="working-with-the-file-system" class="section level2">
-<h2><span class="header-section-number">3.1</span> Working with the file system</h2>
-<p>In R you can work with the file system. R can do anything you can do with files across your network so you need to be careful.</p>
-<div id="file-locations" class="section level3">
-<h3><span class="header-section-number">3.1.1</span> File locations</h3>
-<ul>
-<li>Working directory</li>
-<li>Network files</li>
-</ul>
+<div id="administrators" class="section level1">
+<h1><span class="header-section-number">5</span> Administrators</h1>
+<div id="authorative-mirrors" class="section level2">
+<h2><span class="header-section-number">5.1</span> Authorative mirrors</h2>
 </div>
-<div id="file-permissions" class="section level3">
-<h3><span class="header-section-number">3.1.2</span> File permissions</h3>
-<ul>
-<li>Execute permissions</li>
-<li>Groups</li>
-</ul>
+<div id="validating-package-installs" class="section level2">
+<h2><span class="header-section-number">5.2</span> Validating package installs</h2>
 </div>
-<div id="cleanup" class="section level3">
-<h3><span class="header-section-number">3.1.3</span> Cleanup</h3>
-<ul>
-<li>The use of <code>on.exit</code></li>
-<li>The use of <code>unlink</code></li>
-</ul>
-</div>
-</div>
-<div id="unsafe-sourcing" class="section level2">
-<h2><span class="header-section-number">3.2</span> Unsafe sourcing</h2>
-<p>Don’t source files from internet without checking them!</p>
-<p>You should understand somethting entirely before you execute it and you should verify that a file is the same file you were expecting.</p>
-<p>Using the package <code>notary</code>, you can do this easily:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(notary)</code></pre></div>
-</div>
-<div id="dynamic-string-creation-sql-injection" class="section level2">
-<h2><span class="header-section-number">3.3</span> Dynamic string creation &amp; SQL injection</h2>
-<p>If you’re pulling data from a source and using it to construct strings that you’ll then execute, you need to be careful.</p>
-<p>You might have seen this comic before: <img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png" alt="XKCD Exploits of a Mom" /></p>
-<p>This works when a string gets constructed with special characters that are counted as code delimiters. In R and SQL, this is a <code>;</code>.</p>
-<p>To avoid this issue: - “Cleanse” parameters (<strong>how?</strong>) - Use paramaterised executions with RODBC</p>
-</div>
-<div id="password-handling" class="section level2">
-<h2><span class="header-section-number">3.4</span> Password handling</h2>
-<ul>
-<li>Never store passwords in files that go into source control!</li>
-</ul>
-<p><Info on how to store keys safely></p>
-</div>
-<div id="system-calls" class="section level2">
-<h2><span class="header-section-number">3.5</span> System calls</h2>
-<p>You can execute any command-line code from R. This gives you a lot of access to functionality that can be dangerous!</p>
+<div id="restricting-privileges" class="section level2">
+<h2><span class="header-section-number">5.3</span> Restricting privileges</h2>
 
 </div>
 </div>
@@ -202,8 +161,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="developers.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="developers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

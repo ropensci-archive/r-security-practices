@@ -25,11 +25,22 @@ Using the package `notary`, you can do this easily:
 library(notary)
 ```
 
-## Dynamic string creation
+## Dynamic string creation & SQL injection
+If you're pulling data from a source and using it to construct strings that you'll then execute, you need to be careful.
 
+You might have seen this comic before:
+![XKCD Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
 
+This works when a string gets constructed with special characters that are counted as code delimiters. In R and SQL, this is a `;`.
+
+To avoid this issue:
+- "Cleanse" parameters (**how?**)
+- Use paramaterised executions with RODBC
+ 
 ## Password handling
+- Never store passwords in files that go into source control!
 
-## Dynamic code execution
+<Info on how to store keys safely>
 
 ## System calls
+You can execute any command-line code from R. This gives you a lot of access to functionality that can be dangerous! 

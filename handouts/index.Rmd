@@ -15,4 +15,4 @@ description: "A guide for R users about using and developing R securely"
 
 
 # Who this book is for
-This book is split into two principal sections of guidance -- users and developers. If you're a user of R then you only need to read the first section, if you're an R developer you should read both sections.
+This book is aimed at three potentially overlapping types of people involved with R -- users, developers, and administrators. 

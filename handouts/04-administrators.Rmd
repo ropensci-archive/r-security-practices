@@ -1,0 +1,7 @@
+# Administrators
+
+## Authorative mirrors
+
+## Validating package installs
+
+## Restricting privileges
