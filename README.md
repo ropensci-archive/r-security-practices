@@ -1,17 +1,6 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
-# R security practices
+R security practices
+====================
 
 This is primarily a bookdown book providing simple guidance to follow that improves the security of the stuff you write.

@@ -1,11 +1,13 @@
 Package: rsecuritypractices
-Title: What the Package Does (one line, title case)
+Title: Materials relating to security best practices for R people
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.3)
-License: What license is it under?
+Authors@R: person("Steph", "Locke", email = "stetphanie.g.locke@gmail.com", role = c("aut", "cre"))
+Description: Guidance information intended for R users and developers to help them write safer code.
+Depends: R (>= 3.0.0)
+License: MIT
 Encoding: UTF-8
 LazyData: true
+Remotes: ropenscilabs/notary
 Imports: bookdown,
-    rmarkdown
+    rmarkdown,
+    notary

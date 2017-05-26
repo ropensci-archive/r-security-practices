@@ -1,13 +1,22 @@
 # R Users
 
 ## Working with the file system
-In R you can work with the file system using the following functions:
+In R you can work with the file system. This can be pretty darn risky so here is a set of maxims in order of preference:
 
-```{r}
-
-```
+1. If you can avoid interacting with a machine's file system, do
+4. If you can validate a file is as expected before working with it, do
+2. If you can avoid working with files outside of your working directory, do
+3. If you can avoid giving everybody permissions on a file, do
 
 ## Unsafe sourcing
+Don't source files from internet without checking them!
+
+You should understand somethting entirely before you execute it and you should verify that a file is the same file you were expecting.
+
+Using the package `notary`, you can do this easily:
+```{r}
+library(notary)
+```
 
 ## Dynamic string creation
 
