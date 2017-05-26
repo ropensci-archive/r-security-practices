@@ -36,7 +36,7 @@ List of 1
 
 output file: _main.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/gitbook.html --highlight-style pygments --number-sections --include-in-header /tmp/RtmpmIv2K9/rmarkdown-str2fec5c800e53.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS _main.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output _main.html --smart --email-obfuscation none --standalone --section-divs --table-of-contents --toc-depth 3 --template /home/travis/R/Library/bookdown/templates/gitbook.html --highlight-style pygments --number-sections --include-in-header /tmp/Rtmpel7Rnf/rmarkdown-str2fea5225bf10.html --mathjax 
 
 Output created: docs/r-security-practices.html
 [1] "/home/travis/build/ropenscilabs/r-security-practices/docs/r-security-practices.html"
@@ -46,4 +46,4 @@ Output created: docs/r-security-practices.html
 > 
 > proc.time()
    user  system elapsed 
-  0.872   0.080   0.967 
+  0.948   0.112   1.141 
