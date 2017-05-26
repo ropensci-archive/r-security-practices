@@ -2,6 +2,11 @@
 language: R
 sudo: false
 cache: packages
+addons:
+  apt:
+    packages:
+    - libgpgme11-dev
+    - libsodium-dev
 latex: false
 pandoc_version: 1.17.2
 warnings_are_errors: false
