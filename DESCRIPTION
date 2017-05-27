@@ -1,6 +1,6 @@
 Package: rsecuritypractices
 Title: Materials relating to security best practices for R people
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Steph", "Locke", email = "stetphanie.g.locke@gmail.com", role = c("aut", "cre"))
 Description: Guidance information intended for R users and developers to help them write safer code.
 Depends: R (>= 3.0.0)
