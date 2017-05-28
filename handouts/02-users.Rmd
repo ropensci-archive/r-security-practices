@@ -36,9 +36,9 @@ In R you can work with the file system. R can do anything you can do with files 
 #### Background
 
 ## Unsafe sourcing
-Don't source files from internet without checking them!
+Don't source files from the internet without checking them!
 
-You should understand somethting entirely before you execute it and you should verify that a file is the same file you were expecting.
+You should understand something entirely before you execute it and you should verify that a file is the same file you were expecting.
 
 Using the package `notary`, you can do this easily:
 ```{r}
